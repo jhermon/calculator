@@ -1,0 +1,13 @@
+.result {
+  display: flex;
+  height: 6rem;
+  flex: 1;
+  background-color: rgb(70, 63, 63);
+  color: white;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 0.4em;
+  outline: 1px solid rgb(70, 63, 63);
+}

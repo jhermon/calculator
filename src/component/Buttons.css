@@ -1,0 +1,33 @@
+.bbtn {
+  display: flex;
+  outline: 1px solid rgb(192, 49, 80);
+  justify-content: center;
+  align-items: center;
+  color: rgb(48, 44, 44);
+  background-color: white;
+  height: 4rem;
+  flex: 1;
+  font-size: 1.4rem;
+}
+.bbtn:hover {
+  background-color: rgb(253, 238, 238);
+  outline: 1.5px solid rgb(192, 49, 80);
+  cursor: pointer;
+}
+.container-wrapper {
+  width: 400px;
+  height: 430px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container-row {
+  display: flex;
+  width: 100%;
+}
+.operator {
+  background-color: rgb(243, 59, 99);
+  color: white;
+}
+.operator:hover {
+  background-color: rgb(204, 49, 83);
+  cursor: pointer;
+}
